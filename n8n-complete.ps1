@@ -19,7 +19,7 @@ $PostgresPass           = (New-Guid).Guid + "!"
 $PostgresDB             = "n8ndb"
 $sendgridApiKey = "SG.mykey"
 $KeyVaultName           = "kv-n8n-prod-$(Get-Random)"
-$DomainName             = "n8n.intellifi.ca"
+$DomainName             = "n8n.sgrtech.ca"
 
 $IngressNamespace       = "ingress-nginx"
 $N8nNamespace           = "n8n"
